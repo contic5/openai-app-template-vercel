@@ -1,3 +1,5 @@
+/// <reference types="node" />
+
 import OpenAI from "openai";
 
 const client = new OpenAI({
