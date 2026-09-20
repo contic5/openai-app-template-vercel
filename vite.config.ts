@@ -5,7 +5,7 @@ import { defineConfig } from 'vite'
 export default defineConfig({
   base: '/openai-app-template/', // match your repo name exactly
    build: {
-    outDir: 'build' // Optional — only if you want `build` instead of `dist`
+    outDir: 'dist' // Optional — only if you want `build` instead of `dist`
   },
   plugins: [react()],
 })

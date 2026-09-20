@@ -22,6 +22,7 @@ function App() {
 
   return (
     <>
+      <h1>OpenAI App Template Vercel</h1>
       <input
         value={prompt}
         onChange={(e) => setPrompt(e.target.value)}
